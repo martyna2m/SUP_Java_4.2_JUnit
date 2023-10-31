@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5851609f-46f4-429d-8037-1b15ed311f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DriverSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebPageTitleMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebPageTitleTest.java" afterDir="false" />
+    <list default="true" id="5851609f-46f4-429d-8037-1b15ed311f09" name="Changes" comment="Full code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebPageTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebPageTitleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -50,12 +42,12 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.WebPageTitleTest.checkCatWebsiteTitle">
-    <configuration name="WebPageTitleTest.checkCatWebsiteTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WebPageTitleTest.checkFilmWebsiteTitle">
+    <configuration name="WebPageTitleTest.checkCatWebsiteTitle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SUP_Java_4.2_JUnit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebPageTitleTest" />
-      <option name="METHOD_NAME" value="checkCatWebsiteTitle(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkCatWebsiteTitle(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,17 +57,17 @@
       <module name="SUP_Java_4.2_JUnit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebPageTitleTest" />
-      <option name="METHOD_NAME" value="checkFilmWebsiteTitle(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkFilmWebsiteTitle(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebPageTitleTest.checkOnetWebsiteTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebPageTitleTest.checkOnetWebsiteTitle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SUP_Java_4.2_JUnit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebPageTitleTest" />
-      <option name="METHOD_NAME" value="checkOnetWebsiteTitle(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkOnetWebsiteTitle(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,17 +77,17 @@
       <module name="SUP_Java_4.2_JUnit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebPageTitleTest" />
-      <option name="METHOD_NAME" value="checkSeleniumWebsiteTitle(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkSeleniumWebsiteTitle(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebPageTitleTest.checkSiiWebsiteTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebPageTitleTest.checkSiiWebsiteTitle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SUP_Java_4.2_JUnit" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebPageTitleTest" />
-      <option name="METHOD_NAME" value="checkSiiWebsiteTitle(java.lang.String)" />
+      <option name="METHOD_NAME" value="checkSiiWebsiteTitle(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebPageTitleTest.checkCatWebsiteTitle" />
-        <item itemvalue="JUnit.WebPageTitleTest.checkOnetWebsiteTitle" />
-        <item itemvalue="JUnit.WebPageTitleTest.checkSiiWebsiteTitle" />
-        <item itemvalue="JUnit.WebPageTitleTest.checkSeleniumWebsiteTitle" />
         <item itemvalue="JUnit.WebPageTitleTest.checkFilmWebsiteTitle" />
+        <item itemvalue="JUnit.WebPageTitleTest.checkSeleniumWebsiteTitle" />
+        <item itemvalue="JUnit.WebPageTitleTest.checkCatWebsiteTitle (1)" />
+        <item itemvalue="JUnit.WebPageTitleTest.checkOnetWebsiteTitle (1)" />
+        <item itemvalue="JUnit.WebPageTitleTest.checkSiiWebsiteTitle (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1698655854970</updated>
     </task>
+    <task id="LOCAL-00001" summary="Full code">
+      <option name="closed" value="true" />
+      <created>1698750149731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698750149732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Full code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full code" />
   </component>
 </project>
