@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class DriverSetup {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     @BeforeAll
     static void setDriver() {
