@@ -1,0 +1,44 @@
+<configuration scan="true" scanPeriod="10 seconds" debug="false">
+    <contextName>loggerModule</contextName>
+    <shutdownHook/>
+    <variable file="src/test/resources/variables1.properties"/>
+
+    <timestamp key="toSecond" datePattern="yyyy-MM-dd'T'HHmmss"/>
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %highlight(%-5level) %logger{36} -- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>${USER_HOME}/${LOG_NAME}_${toSecond}.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <fileNamePattern>${USER_HOME}/timeBasedlogFile.%d{yyyy-MM-dd}.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%-70(%d{yyyy-MM-dd HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36})- %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="TestBase" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
